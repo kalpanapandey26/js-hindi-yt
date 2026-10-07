@@ -59,5 +59,15 @@ function handleobject (anyonject){
 handleobject(user)
 
 
+const myNewAarry = [200,300,500]
+function returnSecondValue(getArray){
+    return getArray[1]
+
+}
+//console.log(returnSecondValue(myNewAarry));
+
+console.log(returnSecondValue([200,400,500,700]));
+
+
 
 
